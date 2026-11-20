@@ -1,0 +1,17 @@
+# Entorno virtual del OCR (específico de este PC, 25 MB)
+.ocr-venv/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store

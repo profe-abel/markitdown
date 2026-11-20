@@ -1,0 +1,32 @@
+MarkItDown - interfaz local
+===========================
+
+COMO USARLA
+-----------
+1. Doble clic en "Iniciar MarkItDown.bat".
+2. Se abre el navegador en http://127.0.0.1:8765
+3. Arrastra un archivo (o usa "elegirlo") o pega una URL.
+4. Pulsa "Convertir" y usa "Copiar" o "Descargar .md".
+
+Para apagarla: cierra la ventana negra.
+
+OCR PARA DOCUMENTOS ESCANEADOS
+------------------------------
+Marca la casilla "OCR para documentos escaneados" si el PDF es un escaneo
+(sin texto seleccionable) o si conviertes una foto/imagen.
+
+- Usa el motor OCR propio de Windows: no envia nada a internet.
+- Solo actua si el PDF no tiene texto (o si es una imagen).
+- Idiomas disponibles en este PC: Espanol (ES/MX), Ingles (US) y Chino simplificado.
+  Se eligen en el desplegable que hay junto a la casilla.
+  Por defecto: Espanol (Espana).
+- La primera pagina tarda 1-2 s; un PDF largo puede tardar minutos.
+
+REQUISITOS
+----------
+Tener instalado el comando markitdown (ya esta en este PC):
+    uv tool install "markitdown[all]"
+
+El OCR vive en la carpeta .ocr-venv (no tocar ni borrar).
+La interfaz solo escucha en 127.0.0.1, no es accesible desde la red.
+Los archivos se convierten en local y el temporal se borra al terminar.

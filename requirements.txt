@@ -1,0 +1,9 @@
+# OCR local con el motor de Windows (Windows.Media.Ocr)
+# Instalar dentro de .ocr-venv:  python -m venv .ocr-venv && .ocr-venv\Scripts\pip install -r requirements.txt
+pillow>=13.0
+pypdfium2>=5.15
+winrt-runtime>=4.1
+winrt-Windows.Globalization
+winrt-Windows.Graphics.Imaging
+winrt-Windows.Media.Ocr
+winrt-Windows.Storage.Streams
